@@ -3,6 +3,7 @@
 # 安裝 zsh
 sudo apt update
 sudo apt install -y zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # 安裝 tmux
 sudo apt install -y tmux
