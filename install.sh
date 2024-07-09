@@ -5,6 +5,9 @@ sudo apt update
 sudo apt install -y zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -y
 
+# 安裝 zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
 # 安裝 tmux
 sudo apt install -y tmux
 
@@ -19,3 +22,6 @@ sudo apt install -y wget
 
 # 安裝 curl
 sudo apt install -y curl
+
+# 安裝 vim
+sudo apt install -y vim
