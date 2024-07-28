@@ -22,3 +22,6 @@ sudo apt install -y wget
 
 # 安裝 vim
 sudo apt install -y vim
+
+# 安裝 git
+sudo apt install -y git
