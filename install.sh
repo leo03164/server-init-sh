@@ -27,3 +27,9 @@ yes | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/mast
 
 # 安裝 zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# 修改 .zshrc 文件，加入 zsh-autosuggestions 插件
+sed -i '/plugins=(/ s/)/ zsh-autosuggestions)/' ~/.zshrc
+
+# 切換至 zsh
+chsh -s $(which zsh)
