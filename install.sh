@@ -20,8 +20,5 @@ sudo apt install -y htop
 # 安裝 wget
 sudo apt install -y wget
 
-# 安裝 curl
-sudo apt install -y curl
-
 # 安裝 vim
 sudo apt install -y vim
