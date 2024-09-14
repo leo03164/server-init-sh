@@ -21,9 +21,6 @@ sudo apt install -y vim
 # 安裝 git
 sudo apt install -y git
 
-# 安裝 docker compose
-sudo apt install -y docker-compose
-
 # 安裝 zsh
 sudo apt install -y zsh
 yes | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
