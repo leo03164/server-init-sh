@@ -21,6 +21,9 @@ sudo apt install -y vim
 # 安裝 git
 sudo apt install -y git
 
+# 安裝 qemu
+sudo apt install -y qemu-guest-agent
+
 # 安裝 zsh
 sudo apt install -y zsh
 yes | sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
